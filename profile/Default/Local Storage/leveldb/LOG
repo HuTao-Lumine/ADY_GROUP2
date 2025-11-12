@@ -1,8 +1,0 @@
-2025/11/12-20:56:20.176 43e8 Creating DB D:\FPT\Fall 2025\ADY201m\ADY_GROUP2\profile\Default\Local Storage\leveldb since it was missing.
-2025/11/12-20:56:20.208 43e8 Reusing MANIFEST D:\FPT\Fall 2025\ADY201m\ADY_GROUP2\profile\Default\Local Storage\leveldb/MANIFEST-000001
-2025/11/12-20:59:20.733 3144 Level-0 table #5: started
-2025/11/12-20:59:20.741 3144 Level-0 table #5: 52464 bytes OK
-2025/11/12-20:59:20.747 3144 Delete type=0 #3
-2025/11/12-21:09:58.843 3144 Level-0 table #7: started
-2025/11/12-21:09:58.856 3144 Level-0 table #7: 22724 bytes OK
-2025/11/12-21:09:58.862 3144 Delete type=0 #4
