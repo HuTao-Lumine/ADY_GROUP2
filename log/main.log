@@ -1,0 +1,89 @@
+[12-11-2025][20:56:19][INFO]: Starting main...
+[12-11-2025][20:58:07][INFO]: Getting products...
+[12-11-2025][20:58:07][DEBUG]: wait for products to load...
+[12-11-2025][20:58:12][DEBUG]: get all products...
+[12-11-2025][20:58:12][INFO]: Found 15 link
+[12-11-2025][20:58:12][INFO]: Processing 1/15
+[12-11-2025][20:58:12][DEBUG]: open link: https://shopee.vn/D%C3%A9p-b%C3%A1nh-m%E1%BB%B3-nam-n%E1%BB%AF-quai-ngang-M%C3%A0u-tr%C6%A1n-Gi%C3%A1-R%E1%BA%BB-sang-s%E1%BB%8Bn-size-unisex-i.686768652.22435375176?extraParams=%7B%22display_model_id%22%3A184127284012%2C%22model_selection_logic%22%3A3%7D
+[12-11-2025][21:08:47][DEBUG]: Successfully wrote: products\Dép_bánh_mỳ_nam_nữ_quai_ngang_-_Màu_trơn___Giá_Rẻ___sang_sịn_-_size_unisex.json
+[12-11-2025][21:08:47][ERROR]: exception when writing json: 1146 (42S02): Table 'review_crawl.products' doesn't exist
+Traceback (most recent call last):
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 79, in main
+    write_object_to_json(product_info)
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 206, in write_object_to_json
+    cursor.execute("""
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\cursor.py", line 416, in execute
+    self._connection.cmd_query(
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'review_crawl.products' doesn't exist
+[12-11-2025][21:08:48][INFO]: Processing 2/15
+[12-11-2025][21:08:48][DEBUG]: open link: https://shopee.vn/%E2%9A%A1-LO%E1%BA%A0I-D%C3%80Y-%E2%9A%A1-D%C3%A9p-nh%E1%BB%B1a-si%C3%AAu-m%E1%BB%81m-%C4%91i-trong-nh%C3%A0-v%C4%83n-ph%C3%B2ng-nh%C3%A0-t%E1%BA%AFm-h%C3%A0ng-xu%E1%BA%A5t-Nh%E1%BA%ADt-ch%E1%BB%91ng-tr%C6%A1n-tr%C6%B0%E1%BB%A3t-%C4%91%E1%BA%BF-tr%C3%A1m-88348-i.265418187.21861932661?extraParams=%7B%22display_model_id%22%3A213168815050%2C%22model_selection_logic%22%3A3%7D
+[12-11-2025][21:20:37][DEBUG]: Successfully wrote: products\⚡_LOẠI_DÀY_⚡_Dép_nhựa_siêu_mềm_đi_trong_nhà,_văn_phòng,_nhà_tắm_hàng_xuất_Nhật_chống_trơn_trượt_đế_trám_88348.json
+[12-11-2025][21:20:37][ERROR]: exception when writing json: 1146 (42S02): Table 'review_crawl.products' doesn't exist
+Traceback (most recent call last):
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 79, in main
+    write_object_to_json(product_info)
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 206, in write_object_to_json
+    cursor.execute("""
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\cursor.py", line 416, in execute
+    self._connection.cmd_query(
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\connection.py", line 984, in cmd_query
+    result = self._handle_result(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 89, in handle_cnx_method
+    raise err
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\_decorating.py", line 85, in handle_cnx_method
+    return cnx_method(cnx, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mysql\connector\connection.py", line 745, in _handle_result
+    raise get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'review_crawl.products' doesn't exist
+[12-11-2025][21:20:38][INFO]: Processing 3/15
+[12-11-2025][21:20:38][DEBUG]: open link: https://shopee.vn/D%C3%A9p-quai-ngang-3-m%C3%A0u-basic-V%C3%A2n-Nh%C3%A1m-%C4%91%E1%BA%BF-cao-b%E1%BA%A3n-full-cao-c%E1%BA%A5p-d%C3%A0nh-cho-Nam-v%C3%A0-N%E1%BB%AF-i.686768652.25567728960?extraParams=%7B%22display_model_id%22%3A166384672233%2C%22model_selection_logic%22%3A3%7D
+[12-11-2025][21:21:46][ERROR]: exception when getting product info: 'NoneType' object has no attribute 'query_selector'
+Traceback (most recent call last):
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 70, in main
+    product_info = await get_product_info(tab, link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 100, in get_product_info
+    title = await a.query_selector('h1')
+                  ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'query_selector'
+[12-11-2025][21:21:47][INFO]: Processing 4/15
+[12-11-2025][21:21:47][DEBUG]: open link: https://shopee.vn/JJBXC-Charm-Cross-Ph%E1%BB%A5-Ki%E1%BB%87n-Gi%C3%A0y-Jjbxc-26-Ch%E1%BB%AF-C%C3%A1i-B%E1%BA%A3ng-Ch%E1%BB%AF-C%C3%A1i-A-Z-Trang-Tr%C3%AD-Gi%C3%A0y-cross-Sticker-D%C3%A9p-Cross-i.522703839.29928604704?extraParams=%7B%22display_model_id%22%3A227468443562%2C%22model_selection_logic%22%3A3%7D
+[12-11-2025][21:22:55][ERROR]: exception when getting product info: 'NoneType' object has no attribute 'query_selector'
+Traceback (most recent call last):
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 70, in main
+    product_info = await get_product_info(tab, link)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\FPT\Fall 2025\ADY201m\ADY_GROUP2\newmain.py", line 100, in get_product_info
+    title = await a.query_selector('h1')
+                  ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'query_selector'
+[12-11-2025][21:22:56][INFO]: Processing 5/15
+[12-11-2025][21:22:56][DEBUG]: open link: https://shopee.vn/L%C3%B3t-Gi%C3%A0y-H%C6%B0%C6%A1ng-Qu%E1%BA%BF-T%E1%BB%B1-Nhi%C3%AAn-L%C3%B3t-Gi%C3%A0y-Kh%E1%BB%AD-M%C3%B9i-H%C3%B4i-%C4%90%E1%BB%A7-Size-Nam-N%E1%BB%AF-(LQ01)-i.1227349895.25925077533?extraParams=%7B%22display_model_id%22%3A185038516156%2C%22model_selection_logic%22%3A3%7D
